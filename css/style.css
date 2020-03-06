@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/* Prevent mobile device zoom on input box */
+input,
+select {
+  font-size: 100%;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 0%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the (browser) window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.header {
+  margin-top: 0.4em;
+  margin-bottom: 0em;
+}
+
+.header-result {
+/*  text-align: right;*/
+  margin-left: 10px;
+  margin-top: 0.4em;
+  margin-bottom: 0em;
+}
+
+
+p.thick {
+  margin-left: 10px;
+  font-size: 1.3em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+p.conversion {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+tr * {
+  min-height: 25px;
+}
+
+td {
+  /* border for debug */
+  /*  border: 1px solid aqua;*/
+}
+
+/*
+span {
+  min-height: 2em;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid aqua;
+}
+*/
