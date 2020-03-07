@@ -1,7 +1,12 @@
 body {
   font-family: sans-serif;
   font-size: 18px;
+  /* For details on the following webkit attributes, see https://medium.com/appscope/designing-native-like-progressive-web-apps-for-ios-1b3cdda1d0e8 */
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
 }
+
 
 /* Prevent mobile device zoom on input box */
 input,
@@ -35,7 +40,6 @@ html,
 }
 
 .header-result {
-/*  text-align: right;*/
   margin-left: 10px;
   margin-top: 0.4em;
   margin-bottom: 0em;

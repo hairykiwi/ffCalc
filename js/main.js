@@ -1,4 +1,4 @@
-// !! PWA's require the sw.js file to be loacted in root !!
+// !! PWA's require the service-worker.js file to be loacted in root !!
 
 // If required, delay service worker initial registration until
 // after the first page has loaded with the following:
